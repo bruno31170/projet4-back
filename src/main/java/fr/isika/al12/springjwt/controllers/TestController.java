@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
 	@GetMapping("/all")
 	public String allAccess() {
-		return "Accueil/Informations du site. En cours de construction...";
+		return "Accueil/Informations du site. En cours de construction... Test AWS/github pipeline";
 	}
 	
 	@GetMapping("/user")
